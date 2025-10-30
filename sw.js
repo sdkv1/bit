@@ -2,7 +2,8 @@ const CACHE_NAME = 'simple-pwa-v1';
 const ASSETS = [
   '/',
   '/index.html',
-  '/manifest.json'
+  '/manifest.json',
+  '/client.html'
 ];
 
 // Install: cache app shell

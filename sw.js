@@ -46,7 +46,7 @@ self.addEventListener('fetch', event => {
         }).catch(() => {
           // Fallback if offline and not cached: return offline page or minimal Response
           if (event.request.destination === 'document') {
-            return caches.match('/index.html');
+            return caches.match('/bit/client.html');
           }
           return new Response('Offline', { status: 503, statusText: 'Offline' });
         });

@@ -2,6 +2,8 @@ const CACHE_NAME = 'simple-pwa-v1';
 const ASSETS = [
   '/',
   '/index.html',
+  '/bitshared.png',
+  '/bitshared.png',
   '/manifest.json',
   '/client.html'
 ];

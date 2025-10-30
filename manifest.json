@@ -2,7 +2,7 @@
   "name": "Simple PWA",
   "short_name": "PWA Simple",
   "description": "PWA sederhana untuk testing offline dan install",
-  "start_url": "/index.html",
+  "start_url": "/bit/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2E7D32",
